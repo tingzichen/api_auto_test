@@ -1,0 +1,63 @@
+2019-01-04 17:25:32,928-ERROR-my_log.py--Ting日志信息: 测试结果是：PASS
+2019-01-04 17:25:33,263-ERROR-my_log.py--Ting日志信息: 测试结果是：PASS
+2019-01-04 17:25:33,754-ERROR-my_log.py--Ting日志信息: 测试结果是：PASS
+2019-01-04 17:25:34,055-ERROR-my_log.py--Ting日志信息: 测试结果是：PASS
+2019-01-04 17:25:34,217-ERROR-my_log.py--Ting日志信息: 测试结果是：PASS
+2019-01-04 17:25:34,376-ERROR-my_log.py--Ting日志信息: 测试结果是：PASS
+2019-01-04 17:25:34,541-ERROR-my_log.py--Ting日志信息: 测试结果是：PASS
+2019-01-04 17:25:34,797-ERROR-my_log.py--Ting日志信息: 测试结果是：PASS
+2019-01-04 17:25:34,953-ERROR-my_log.py--Ting日志信息: 测试结果是：PASS
+2019-01-04 17:25:35,105-ERROR-my_log.py--Ting日志信息: 测试结果是：PASS
+2019-01-04 17:25:35,261-ERROR-my_log.py--Ting日志信息: 测试结果是：PASS
+2019-01-04 17:25:35,427-ERROR-my_log.py--Ting日志信息: 断言报错啦！，错误原因：'20105' != '20109'
+- 20105
+?     ^
++ 20109
+?     ^
+
+2019-01-04 17:25:35,430-ERROR-my_log.py--Ting日志信息: 测试结果是：False
+2019-01-04 17:25:35,598-ERROR-my_log.py--Ting日志信息: 断言报错啦！，错误原因：'20106' != '10001'
+- 20106
++ 10001
+
+2019-01-04 17:25:35,602-ERROR-my_log.py--Ting日志信息: 测试结果是：False
+2019-01-04 17:25:35,791-ERROR-my_log.py--Ting日志信息: 测试结果是：PASS
+2019-01-04 17:25:35,953-ERROR-my_log.py--Ting日志信息: 测试结果是：PASS
+2019-01-04 17:25:36,109-ERROR-my_log.py--Ting日志信息: 测试结果是：PASS
+2019-01-04 17:25:36,259-ERROR-my_log.py--Ting日志信息: 测试结果是：PASS
+2019-01-04 17:25:36,417-ERROR-my_log.py--Ting日志信息: 测试结果是：PASS
+2019-01-04 17:25:36,570-ERROR-my_log.py--Ting日志信息: 测试结果是：PASS
+2019-01-04 17:38:28,873-ERROR-my_log.py--Ting日志信息: 断言报错啦！，错误原因：'20103' != None
+2019-01-04 17:38:28,912-ERROR-my_log.py--Ting日志信息: 测试结果是：False
+2019-01-04 17:38:30,632-ERROR-my_log.py--Ting日志信息: 断言报错啦！，错误原因：'20103' != None
+2019-01-04 17:38:30,796-ERROR-my_log.py--Ting日志信息: 测试结果是：False
+2019-01-04 17:38:31,358-ERROR-my_log.py--Ting日志信息: 断言报错啦！，错误原因：'20103' != None
+2019-01-04 17:38:31,361-ERROR-my_log.py--Ting日志信息: 测试结果是：False
+2019-01-04 17:38:31,695-ERROR-my_log.py--Ting日志信息: 断言报错啦！，错误原因：'20103' != None
+2019-01-04 17:38:31,700-ERROR-my_log.py--Ting日志信息: 测试结果是：False
+2019-01-04 17:38:32,007-ERROR-my_log.py--Ting日志信息: 断言报错啦！，错误原因：'20103' != None
+2019-01-04 17:38:32,011-ERROR-my_log.py--Ting日志信息: 测试结果是：False
+2019-01-04 17:38:32,300-ERROR-my_log.py--Ting日志信息: 断言报错啦！，错误原因：'20103' != None
+2019-01-04 17:38:32,305-ERROR-my_log.py--Ting日志信息: 测试结果是：False
+2019-01-04 17:38:32,706-ERROR-my_log.py--Ting日志信息: 断言报错啦！，错误原因：'20103' != None
+2019-01-04 17:38:32,709-ERROR-my_log.py--Ting日志信息: 测试结果是：False
+2019-01-04 17:38:33,035-ERROR-my_log.py--Ting日志信息: 断言报错啦！，错误原因：'20103' != None
+2019-01-04 17:38:33,039-ERROR-my_log.py--Ting日志信息: 测试结果是：False
+2019-01-04 17:38:33,351-ERROR-my_log.py--Ting日志信息: 断言报错啦！，错误原因：'20104' != None
+2019-01-04 17:38:33,354-ERROR-my_log.py--Ting日志信息: 测试结果是：False
+2019-01-04 17:38:33,658-ERROR-my_log.py--Ting日志信息: 断言报错啦！，错误原因：'20105' != None
+2019-01-04 17:38:33,661-ERROR-my_log.py--Ting日志信息: 测试结果是：False
+2019-01-04 17:38:33,947-ERROR-my_log.py--Ting日志信息: 断言报错啦！，错误原因：'20106' != None
+2019-01-04 17:38:33,950-ERROR-my_log.py--Ting日志信息: 测试结果是：False
+2019-01-04 17:38:34,328-ERROR-my_log.py--Ting日志信息: 断言报错啦！，错误原因：'20106' != None
+2019-01-04 17:38:34,333-ERROR-my_log.py--Ting日志信息: 测试结果是：False
+2019-01-04 17:38:34,620-ERROR-my_log.py--Ting日志信息: 断言报错啦！，错误原因：'20106' != None
+2019-01-04 17:38:34,624-ERROR-my_log.py--Ting日志信息: 测试结果是：False
+2019-01-04 17:38:34,931-ERROR-my_log.py--Ting日志信息: 断言报错啦！，错误原因：'20107' != None
+2019-01-04 17:38:34,934-ERROR-my_log.py--Ting日志信息: 测试结果是：False
+2019-01-04 17:38:35,229-ERROR-my_log.py--Ting日志信息: 断言报错啦！，错误原因：'20107' != None
+2019-01-04 17:38:35,232-ERROR-my_log.py--Ting日志信息: 测试结果是：False
+2019-01-04 17:38:35,550-ERROR-my_log.py--Ting日志信息: 断言报错啦！，错误原因：'20108' != None
+2019-01-04 17:38:42,081-ERROR-my_log.py--Ting日志信息: 测试结果是：False
+2019-01-04 17:38:42,108-ERROR-my_log.py--Ting日志信息: 断言报错啦！，错误原因：'20103' != None
+2019-01-04 17:38:43,000-ERROR-my_log.py--Ting日志信息: 测试结果是：False

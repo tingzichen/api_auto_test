@@ -36,18 +36,22 @@ class Request:
 
 if __name__ == '__main__':
     # 获取所有表单名，遍历表单名
-    do_excel = DoExcel(project_path.testCase_path)
-    sheetnames = do_excel.sheet_namme()
-    for sheetname in sheetnames: # 遍历表单名
-        case_data = do_excel.get_case( sheetname) # 获取测试数据对象列表
-        for case in case_data: # 遍历数据列表里的对象
-            data=eval(case.params)
-            res = Request(case.http_method,case.url,data,cookies=None) # 创建Request实例，发送接口请求
-            actual=json.dumps(res.get_json(),ensure_ascii=False) # json数据里面含有中文，写入表单时，需要设置编码格式
-            if str(case.expected) == res.get_json()['code']: # 判断期望结果与实际结果
-                result='PASS'
-            else:
-                result ='False'
-            do_excel.write_return(sheetname,case.case_id,actual,result) # 将测试结果写入excel
-
-
+    # do_excel = DoExcel(project_path.testCase_path)
+    # sheetnames = do_excel.sheet_namme()
+    # for sheetname in sheetnames: # 遍历表单名
+    #     case_data = do_excel.get_case( sheetname) # 获取测试数据对象列表
+    #     for case in case_data: # 遍历数据列表里的对象
+    #         data=eval(case.params)
+    #         res = Request(case.http_method,case.url,data,cookies=None) # 创建Request实例，发送接口请求
+    #         actual=json.dumps(res.get_json(),ensure_ascii=False) # json数据里面含有中文，写入表单时，需要设置编码格式
+    #         if str(case.expected) == res.get_json()['code']: # 判断期望结果与实际结果
+    #             result='PASS'
+    #         else:
+    #             result ='False'
+    #         do_excel.write_return(sheetname,case.case_id,actual,result) # 将测试结果写入excel
+    params={"memberId":1111405}
+    JSESSIONID = '7E031AED52D3F9C82F36F0A29E3BCA7B'
+    url ='http://test.lemonban.com/futureloan/mvc/api/invest/getInvestsByMemberId'
+    http_method ='post'
+    res = Request(http_method,url,params,cookies=JSESSIONID).get_json()
+    print(res)

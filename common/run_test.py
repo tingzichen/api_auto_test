@@ -6,6 +6,7 @@ import unittest
 from api_auto_test.common import project_path
 import HTMLTestRunnerNew
 
+# print(project_path.test_case_path)
 # 自动查找test_case文件下面以test开头的文件
 # print(project_path.test_case_path)
 discover = unittest.defaultTestLoader.discover(project_path.test_case_path,pattern="test*.py",top_level_dir=None)

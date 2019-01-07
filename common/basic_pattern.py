@@ -23,6 +23,7 @@ class Pattern:
                 data = data.replace(res[i], str(Context.register_user))
             elif 'user_id'in res[i]:
                 data = data.replace(res[i], str(Context.user_id))
+            # 竞标
             elif 'NotFull_loanId' in res[i]:
                 data = data.replace(res[i], str(Context.NotFull_loanId))
             elif 'NoneLoanId' in res[i]:
@@ -33,6 +34,15 @@ class Pattern:
                 data = data.replace(res[i], str(Context.Full_loanId))
             elif 'NotFull_amount' in res[i]:
                 data = data.replace(res[i], str(int(int(Context.LeaveAmount)/100)*200))
+            # 审核
+            elif 'auditLoan_id' in res[i]:
+                data = data.replace(res[i], str(Context.auditLoan_id))
+            elif 'two_auditLoan_id' in res[i]:
+                data = data.replace(res[i], str(Context.two_auditLoan_id))
+            elif 'three_auditLoan_id' in res[i]:
+                data = data.replace(res[i], str(Context.three_auditLoan_id))
+            elif 'compete_loan_id' in res[i]:
+                data = data.replace(res[i], str(Context.compete_loan_id))
         return data
 
  #  测试上下文
@@ -44,13 +54,22 @@ class Context:
     cookies = None
     LeaveAmount = None
 
-    # 投标时用：
+    # 投标用例：
     NotFull_loanId = None  # 没有投满的标  从数据库取Status=4 状态：“竞标中”
     NoneLoanId = None  # 不存在的标   从数据库取最大的标id+1
     CannotInvest_loanId = None  # 不在竞标状态的标  从数据库取Status != 4
     Full_loanId = None  # 已满标  从数据库取FullTime != null  满标时间不为空
 
     NotFull_amount = None  # 余额不足
+
+    # 审核项目：
+    auditLoan_id = None   # 审核中
+    two_auditLoan_id = None   # 二审中
+    three_auditLoan_id = None  # 三审中
+    compete_loan_id = None  # 竞标中
+    notPass_loan_id = None   # 审核不通过
+    invalid_loan_id = None  # 流标
+    finish_loan_id = None  # 还款完成
 
 
 if __name__ == '__main__':

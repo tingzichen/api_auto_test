@@ -1,0 +1,244 @@
+2019-01-04 17:25:28,409-INFO-my_log.py--Ting日志信息: ======================开始测试===========================
+2019-01-04 17:25:28,412-INFO-my_log.py--Ting日志信息: =====case_id=1======用例title=正常登录=====
+2019-01-04 17:25:28,415-INFO-my_log.py--Ting日志信息: 测试data数据：{'mobilephone':13729990001, 'pwd':123456}
+2019-01-04 17:25:32,924-INFO-my_log.py--Ting日志信息: json数据：{'code': '10001', 'status': 1, 'msg': '登录成功', 'data': None}
+2019-01-04 17:25:32,928-ERROR-my_log.py--Ting日志信息: 测试结果是：PASS
+2019-01-04 17:25:33,121-INFO-my_log.py--Ting日志信息: ======================结束测试===========================
+2019-01-04 17:25:33,125-INFO-my_log.py--Ting日志信息: ======================开始测试===========================
+2019-01-04 17:25:33,127-INFO-my_log.py--Ting日志信息: =====case_id=2======用例title=正常新建项目=====
+2019-01-04 17:25:33,130-INFO-my_log.py--Ting日志信息: 测试data数据：{"memberId":1111405,"title":"借款上柠檬班学自动化","amount":"10000000","loanRate":"15","loanTerm":"2","loanDateType":"0","repaymemtWay":"4","biddingDays":"2"}
+2019-01-04 17:25:33,260-INFO-my_log.py--Ting日志信息: json数据：{'code': '10001', 'status': 1, 'msg': '加标成功', 'data': None}
+2019-01-04 17:25:33,263-ERROR-my_log.py--Ting日志信息: 测试结果是：PASS
+2019-01-04 17:25:33,392-INFO-my_log.py--Ting日志信息: ======================结束测试===========================
+2019-01-04 17:25:33,570-INFO-my_log.py--Ting日志信息: ======================开始测试===========================
+2019-01-04 17:25:33,574-INFO-my_log.py--Ting日志信息: =====case_id=3======用例title=用户id为空=====
+2019-01-04 17:25:33,584-INFO-my_log.py--Ting日志信息: 测试data数据：{"memberId":"","title":"借款买房","amount":"100000","loanRate":"15","loanTerm":"2","loanDateType":"0","repaymemtWay":"4","biddingDays":"2"}
+2019-01-04 17:25:33,751-INFO-my_log.py--Ting日志信息: json数据：{'code': '20103', 'status': 0, 'msg': '所有参数不能为空', 'data': None}
+2019-01-04 17:25:33,754-ERROR-my_log.py--Ting日志信息: 测试结果是：PASS
+2019-01-04 17:25:33,894-INFO-my_log.py--Ting日志信息: ======================结束测试===========================
+2019-01-04 17:25:33,897-INFO-my_log.py--Ting日志信息: ======================开始测试===========================
+2019-01-04 17:25:33,901-INFO-my_log.py--Ting日志信息: =====case_id=4======用例title=借款标题为空=====
+2019-01-04 17:25:33,904-INFO-my_log.py--Ting日志信息: 测试data数据：{"memberId":1111405,"title":"","amount":"100000","loanRate":"15","loanTerm":"2","loanDateType":"0","repaymemtWay":"4","biddingDays":"2"}
+2019-01-04 17:25:34,051-INFO-my_log.py--Ting日志信息: json数据：{'code': '20103', 'status': 0, 'msg': '所有参数不能为空', 'data': None}
+2019-01-04 17:25:34,055-ERROR-my_log.py--Ting日志信息: 测试结果是：PASS
+2019-01-04 17:25:34,181-INFO-my_log.py--Ting日志信息: ======================结束测试===========================
+2019-01-04 17:25:34,185-INFO-my_log.py--Ting日志信息: ======================开始测试===========================
+2019-01-04 17:25:34,188-INFO-my_log.py--Ting日志信息: =====case_id=5======用例title=借款金额为空=====
+2019-01-04 17:25:34,191-INFO-my_log.py--Ting日志信息: 测试data数据：{"memberId":1111405,"title":"借款买房","amount":"","loanRate":"15","loanTerm":"2","loanDateType":"0","repaymemtWay":"4","biddingDays":"2"}
+2019-01-04 17:25:34,214-INFO-my_log.py--Ting日志信息: json数据：{'code': '20103', 'status': 0, 'msg': '所有参数不能为空', 'data': None}
+2019-01-04 17:25:34,217-ERROR-my_log.py--Ting日志信息: 测试结果是：PASS
+2019-01-04 17:25:34,333-INFO-my_log.py--Ting日志信息: ======================结束测试===========================
+2019-01-04 17:25:34,336-INFO-my_log.py--Ting日志信息: ======================开始测试===========================
+2019-01-04 17:25:34,340-INFO-my_log.py--Ting日志信息: =====case_id=6======用例title=年利率为空=====
+2019-01-04 17:25:34,343-INFO-my_log.py--Ting日志信息: 测试data数据：{"memberId":1111405,"title":"借款买房","amount":"100000","loanRate":"","loanTerm":"2","loanDateType":"0","repaymemtWay":"4","biddingDays":"2"}
+2019-01-04 17:25:34,374-INFO-my_log.py--Ting日志信息: json数据：{'code': '20103', 'status': 0, 'msg': '所有参数不能为空', 'data': None}
+2019-01-04 17:25:34,376-ERROR-my_log.py--Ting日志信息: 测试结果是：PASS
+2019-01-04 17:25:34,499-INFO-my_log.py--Ting日志信息: ======================结束测试===========================
+2019-01-04 17:25:34,502-INFO-my_log.py--Ting日志信息: ======================开始测试===========================
+2019-01-04 17:25:34,505-INFO-my_log.py--Ting日志信息: =====case_id=7======用例title=借款期限为空=====
+2019-01-04 17:25:34,508-INFO-my_log.py--Ting日志信息: 测试data数据：{"memberId":1111405,"title":"借款买房","amount":"100000","loanRate":"15","loanTerm":"","loanDateType":"0","repaymemtWay":"4","biddingDays":"2"}
+2019-01-04 17:25:34,538-INFO-my_log.py--Ting日志信息: json数据：{'code': '20103', 'status': 0, 'msg': '所有参数不能为空', 'data': None}
+2019-01-04 17:25:34,541-ERROR-my_log.py--Ting日志信息: 测试结果是：PASS
+2019-01-04 17:25:34,758-INFO-my_log.py--Ting日志信息: ======================结束测试===========================
+2019-01-04 17:25:34,762-INFO-my_log.py--Ting日志信息: ======================开始测试===========================
+2019-01-04 17:25:34,765-INFO-my_log.py--Ting日志信息: =====case_id=8======用例title=借款期限类型为空=====
+2019-01-04 17:25:34,769-INFO-my_log.py--Ting日志信息: 测试data数据：{"memberId":1111405,"title":"借款买房","amount":"100000","loanRate":"15","loanTerm":"2","loanDateType":"","repaymemtWay":"4","biddingDays":"2"}
+2019-01-04 17:25:34,794-INFO-my_log.py--Ting日志信息: json数据：{'code': '20103', 'status': 0, 'msg': '所有参数不能为空', 'data': None}
+2019-01-04 17:25:34,797-ERROR-my_log.py--Ting日志信息: 测试结果是：PASS
+2019-01-04 17:25:34,915-INFO-my_log.py--Ting日志信息: ======================结束测试===========================
+2019-01-04 17:25:34,918-INFO-my_log.py--Ting日志信息: ======================开始测试===========================
+2019-01-04 17:25:34,920-INFO-my_log.py--Ting日志信息: =====case_id=9======用例title=还款方式为空=====
+2019-01-04 17:25:34,923-INFO-my_log.py--Ting日志信息: 测试data数据：{"memberId":1111405,"title":"借款买房","amount":"100000","loanRate":"15","loanTerm":"2","loanDateType":"0","repaymemtWay":"","biddingDays":"2"}
+2019-01-04 17:25:34,951-INFO-my_log.py--Ting日志信息: json数据：{'code': '20103', 'status': 0, 'msg': '所有参数不能为空', 'data': None}
+2019-01-04 17:25:34,953-ERROR-my_log.py--Ting日志信息: 测试结果是：PASS
+2019-01-04 17:25:35,067-INFO-my_log.py--Ting日志信息: ======================结束测试===========================
+2019-01-04 17:25:35,071-INFO-my_log.py--Ting日志信息: ======================开始测试===========================
+2019-01-04 17:25:35,073-INFO-my_log.py--Ting日志信息: =====case_id=10======用例title=竞标天数为空=====
+2019-01-04 17:25:35,076-INFO-my_log.py--Ting日志信息: 测试data数据：{"memberId":1111405,"title":"借款买房","amount":"100000","loanRate":"15","loanTerm":"2","loanDateType":"0","repaymemtWay":"4","biddingDays":""}
+2019-01-04 17:25:35,103-INFO-my_log.py--Ting日志信息: json数据：{'code': '20103', 'status': 0, 'msg': '所有参数不能为空', 'data': None}
+2019-01-04 17:25:35,105-ERROR-my_log.py--Ting日志信息: 测试结果是：PASS
+2019-01-04 17:25:35,219-INFO-my_log.py--Ting日志信息: ======================结束测试===========================
+2019-01-04 17:25:35,222-INFO-my_log.py--Ting日志信息: ======================开始测试===========================
+2019-01-04 17:25:35,225-INFO-my_log.py--Ting日志信息: =====case_id=11======用例title=用户id为负数=====
+2019-01-04 17:25:35,228-INFO-my_log.py--Ting日志信息: 测试data数据：{"memberId":"-1111404","title":"借款买房","amount":"100000","loanRate":"15","loanTerm":"2","loanDateType":"0","repaymemtWay":"4","biddingDays":"2"}
+2019-01-04 17:25:35,258-INFO-my_log.py--Ting日志信息: json数据：{'code': '20104', 'status': 0, 'msg': '参数错误：用户ID memberId必须是正整数', 'data': None}
+2019-01-04 17:25:35,261-ERROR-my_log.py--Ting日志信息: 测试结果是：PASS
+2019-01-04 17:25:35,378-INFO-my_log.py--Ting日志信息: ======================结束测试===========================
+2019-01-04 17:25:35,383-INFO-my_log.py--Ting日志信息: ======================开始测试===========================
+2019-01-04 17:25:35,386-INFO-my_log.py--Ting日志信息: =====case_id=12======用例title=用户id不存在=====
+2019-01-04 17:25:35,388-INFO-my_log.py--Ting日志信息: 测试data数据：{"memberId":"1111000000404","title":"借款买房","amount":"100000","loanRate":"15","loanTerm":"2","loanDateType":"0","repaymemtWay":"4","biddingDays":"2"}
+2019-01-04 17:25:35,424-INFO-my_log.py--Ting日志信息: json数据：{'code': '20109', 'status': 0, 'msg': '请根据数值参数的类型对应输入合法的数字', 'data': None}
+2019-01-04 17:25:35,427-ERROR-my_log.py--Ting日志信息: 断言报错啦！，错误原因：'20105' != '20109'
+- 20105
+?     ^
++ 20109
+?     ^
+
+2019-01-04 17:25:35,430-ERROR-my_log.py--Ting日志信息: 测试结果是：False
+2019-01-04 17:25:35,547-INFO-my_log.py--Ting日志信息: ======================结束测试===========================
+2019-01-04 17:25:35,551-INFO-my_log.py--Ting日志信息: ======================开始测试===========================
+2019-01-04 17:25:35,553-INFO-my_log.py--Ting日志信息: =====case_id=13======用例title=借款金额小于1000=====
+2019-01-04 17:25:35,556-INFO-my_log.py--Ting日志信息: 测试data数据：{"memberId":1111405,"title":"借款买房","amount":"100","loanRate":"15","loanTerm":"2","loanDateType":"0","repaymemtWay":"4","biddingDays":"2"}
+2019-01-04 17:25:35,596-INFO-my_log.py--Ting日志信息: json数据：{'code': '10001', 'status': 1, 'msg': '加标成功', 'data': None}
+2019-01-04 17:25:35,598-ERROR-my_log.py--Ting日志信息: 断言报错啦！，错误原因：'20106' != '10001'
+- 20106
++ 10001
+
+2019-01-04 17:25:35,602-ERROR-my_log.py--Ting日志信息: 测试结果是：False
+2019-01-04 17:25:35,725-INFO-my_log.py--Ting日志信息: ======================结束测试===========================
+2019-01-04 17:25:35,731-INFO-my_log.py--Ting日志信息: ======================开始测试===========================
+2019-01-04 17:25:35,734-INFO-my_log.py--Ting日志信息: =====case_id=14======用例title=借款金额不能被100整除=====
+2019-01-04 17:25:35,736-INFO-my_log.py--Ting日志信息: 测试data数据：{"memberId":1111405,"title":"借款买房","amount":"1001","loanRate":"15","loanTerm":"2","loanDateType":"0","repaymemtWay":"4","biddingDays":"2"}
+2019-01-04 17:25:35,788-INFO-my_log.py--Ting日志信息: json数据：{'code': '20106', 'status': 0, 'msg': '参数错误：借款金额amount必须为大于1000并能被100整除的正整数', 'data': None}
+2019-01-04 17:25:35,791-ERROR-my_log.py--Ting日志信息: 测试结果是：PASS
+2019-01-04 17:25:35,907-INFO-my_log.py--Ting日志信息: ======================结束测试===========================
+2019-01-04 17:25:35,910-INFO-my_log.py--Ting日志信息: ======================开始测试===========================
+2019-01-04 17:25:35,914-INFO-my_log.py--Ting日志信息: =====case_id=15======用例title=借款金额为负数=====
+2019-01-04 17:25:35,917-INFO-my_log.py--Ting日志信息: 测试data数据：{"memberId":1111405,"title":"借款买房","amount":"-100000","loanRate":"15","loanTerm":"2","loanDateType":"0","repaymemtWay":"4","biddingDays":"2"}
+2019-01-04 17:25:35,951-INFO-my_log.py--Ting日志信息: json数据：{'code': '20106', 'status': 0, 'msg': '参数错误：借款金额amount必须为大于1000并能被100整除的正整数', 'data': None}
+2019-01-04 17:25:35,953-ERROR-my_log.py--Ting日志信息: 测试结果是：PASS
+2019-01-04 17:25:36,068-INFO-my_log.py--Ting日志信息: ======================结束测试===========================
+2019-01-04 17:25:36,072-INFO-my_log.py--Ting日志信息: ======================开始测试===========================
+2019-01-04 17:25:36,074-INFO-my_log.py--Ting日志信息: =====case_id=16======用例title=借款利率大于24%=====
+2019-01-04 17:25:36,077-INFO-my_log.py--Ting日志信息: 测试data数据：{"memberId":1111405,"title":"借款买房","amount":"100000","loanRate":"25","loanTerm":"2","loanDateType":"0","repaymemtWay":"4","biddingDays":"2"}
+2019-01-04 17:25:36,107-INFO-my_log.py--Ting日志信息: json数据：{'code': '20107', 'status': 0, 'msg': '参数错误：借款利率loanRate值必须大于0小于或等于24', 'data': None}
+2019-01-04 17:25:36,109-ERROR-my_log.py--Ting日志信息: 测试结果是：PASS
+2019-01-04 17:25:36,223-INFO-my_log.py--Ting日志信息: ======================结束测试===========================
+2019-01-04 17:25:36,226-INFO-my_log.py--Ting日志信息: ======================开始测试===========================
+2019-01-04 17:25:36,228-INFO-my_log.py--Ting日志信息: =====case_id=17======用例title=借款利率为0=====
+2019-01-04 17:25:36,232-INFO-my_log.py--Ting日志信息: 测试data数据：{"memberId":1111405,"title":"借款买房","amount":"100000","loanRate":"0","loanTerm":"2","loanDateType":"0","repaymemtWay":"4","biddingDays":"2"}
+2019-01-04 17:25:36,257-INFO-my_log.py--Ting日志信息: json数据：{'code': '20107', 'status': 0, 'msg': '参数错误：借款利率loanRate值必须大于0小于或等于24', 'data': None}
+2019-01-04 17:25:36,259-ERROR-my_log.py--Ting日志信息: 测试结果是：PASS
+2019-01-04 17:25:36,377-INFO-my_log.py--Ting日志信息: ======================结束测试===========================
+2019-01-04 17:25:36,380-INFO-my_log.py--Ting日志信息: ======================开始测试===========================
+2019-01-04 17:25:36,384-INFO-my_log.py--Ting日志信息: =====case_id=18======用例title=借款日期类型为1=====
+2019-01-04 17:25:36,386-INFO-my_log.py--Ting日志信息: 测试data数据：{"memberId":1111405,"title":"借款买房","amount":"100000","loanRate":"15","loanTerm":"2","loanDateType":"1","repaymemtWay":"4","biddingDays":"2"}
+2019-01-04 17:25:36,414-INFO-my_log.py--Ting日志信息: json数据：{'code': '20108', 'status': 0, 'msg': '参数错误：借款日期类型loanDateType只能为0,2,4', 'data': None}
+2019-01-04 17:25:36,417-ERROR-my_log.py--Ting日志信息: 测试结果是：PASS
+2019-01-04 17:25:36,531-INFO-my_log.py--Ting日志信息: ======================结束测试===========================
+2019-01-04 17:25:36,534-INFO-my_log.py--Ting日志信息: ======================开始测试===========================
+2019-01-04 17:25:36,539-INFO-my_log.py--Ting日志信息: =====case_id=19======用例title=借款利率输入：15%=====
+2019-01-04 17:25:36,541-INFO-my_log.py--Ting日志信息: 测试data数据：{"memberId":1111405,"title":"借款买房","amount":"100000","loanRate":"15%","loanTerm":"2","loanDateType":"0","repaymemtWay":"4","biddingDays":"2"}
+2019-01-04 17:25:36,567-INFO-my_log.py--Ting日志信息: json数据：{'code': '20109', 'status': 0, 'msg': '请根据数值参数的类型对应输入合法的数字', 'data': None}
+2019-01-04 17:25:36,570-ERROR-my_log.py--Ting日志信息: 测试结果是：PASS
+2019-01-04 17:25:36,685-INFO-my_log.py--Ting日志信息: ======================结束测试===========================
+2019-01-04 17:38:28,027-INFO-my_log.py--Ting日志信息: ======================开始测试===========================
+2019-01-04 17:38:28,092-INFO-my_log.py--Ting日志信息: =====case_id=3======用例title=用户id为空=====
+2019-01-04 17:38:28,133-INFO-my_log.py--Ting日志信息: 测试data数据：{"memberId":"","title":"借款买房","amount":"100000","loanRate":"15","loanTerm":"2","loanDateType":"0","repaymemtWay":"4","biddingDays":"2"}
+2019-01-04 17:38:28,865-INFO-my_log.py--Ting日志信息: json数据：{'msg': '抱歉，请先登录。', 'code': None, 'status': 0, 'data': None}
+2019-01-04 17:38:28,873-ERROR-my_log.py--Ting日志信息: 断言报错啦！，错误原因：'20103' != None
+2019-01-04 17:38:28,912-ERROR-my_log.py--Ting日志信息: 测试结果是：False
+2019-01-04 17:38:30,536-INFO-my_log.py--Ting日志信息: ======================结束测试===========================
+2019-01-04 17:38:30,542-INFO-my_log.py--Ting日志信息: ======================开始测试===========================
+2019-01-04 17:38:30,545-INFO-my_log.py--Ting日志信息: =====case_id=4======用例title=借款标题为空=====
+2019-01-04 17:38:30,548-INFO-my_log.py--Ting日志信息: 测试data数据：{"memberId":1111405,"title":"","amount":"100000","loanRate":"15","loanTerm":"2","loanDateType":"0","repaymemtWay":"4","biddingDays":"2"}
+2019-01-04 17:38:30,629-INFO-my_log.py--Ting日志信息: json数据：{'msg': '抱歉，请先登录。', 'code': None, 'status': 0, 'data': None}
+2019-01-04 17:38:30,632-ERROR-my_log.py--Ting日志信息: 断言报错啦！，错误原因：'20103' != None
+2019-01-04 17:38:30,796-ERROR-my_log.py--Ting日志信息: 测试结果是：False
+2019-01-04 17:38:31,133-INFO-my_log.py--Ting日志信息: ======================结束测试===========================
+2019-01-04 17:38:31,274-INFO-my_log.py--Ting日志信息: ======================开始测试===========================
+2019-01-04 17:38:31,297-INFO-my_log.py--Ting日志信息: =====case_id=5======用例title=借款金额为空=====
+2019-01-04 17:38:31,300-INFO-my_log.py--Ting日志信息: 测试data数据：{"memberId":1111405,"title":"借款买房","amount":"","loanRate":"15","loanTerm":"2","loanDateType":"0","repaymemtWay":"4","biddingDays":"2"}
+2019-01-04 17:38:31,354-INFO-my_log.py--Ting日志信息: json数据：{'msg': '抱歉，请先登录。', 'code': None, 'status': 0, 'data': None}
+2019-01-04 17:38:31,358-ERROR-my_log.py--Ting日志信息: 断言报错啦！，错误原因：'20103' != None
+2019-01-04 17:38:31,361-ERROR-my_log.py--Ting日志信息: 测试结果是：False
+2019-01-04 17:38:31,603-INFO-my_log.py--Ting日志信息: ======================结束测试===========================
+2019-01-04 17:38:31,642-INFO-my_log.py--Ting日志信息: ======================开始测试===========================
+2019-01-04 17:38:31,645-INFO-my_log.py--Ting日志信息: =====case_id=6======用例title=年利率为空=====
+2019-01-04 17:38:31,648-INFO-my_log.py--Ting日志信息: 测试data数据：{"memberId":1111405,"title":"借款买房","amount":"100000","loanRate":"","loanTerm":"2","loanDateType":"0","repaymemtWay":"4","biddingDays":"2"}
+2019-01-04 17:38:31,692-INFO-my_log.py--Ting日志信息: json数据：{'msg': '抱歉，请先登录。', 'code': None, 'status': 0, 'data': None}
+2019-01-04 17:38:31,695-ERROR-my_log.py--Ting日志信息: 断言报错啦！，错误原因：'20103' != None
+2019-01-04 17:38:31,700-ERROR-my_log.py--Ting日志信息: 测试结果是：False
+2019-01-04 17:38:31,937-INFO-my_log.py--Ting日志信息: ======================结束测试===========================
+2019-01-04 17:38:31,944-INFO-my_log.py--Ting日志信息: ======================开始测试===========================
+2019-01-04 17:38:31,947-INFO-my_log.py--Ting日志信息: =====case_id=7======用例title=借款期限为空=====
+2019-01-04 17:38:31,950-INFO-my_log.py--Ting日志信息: 测试data数据：{"memberId":1111405,"title":"借款买房","amount":"100000","loanRate":"15","loanTerm":"","loanDateType":"0","repaymemtWay":"4","biddingDays":"2"}
+2019-01-04 17:38:32,004-INFO-my_log.py--Ting日志信息: json数据：{'msg': '抱歉，请先登录。', 'code': None, 'status': 0, 'data': None}
+2019-01-04 17:38:32,007-ERROR-my_log.py--Ting日志信息: 断言报错啦！，错误原因：'20103' != None
+2019-01-04 17:38:32,011-ERROR-my_log.py--Ting日志信息: 测试结果是：False
+2019-01-04 17:38:32,238-INFO-my_log.py--Ting日志信息: ======================结束测试===========================
+2019-01-04 17:38:32,245-INFO-my_log.py--Ting日志信息: ======================开始测试===========================
+2019-01-04 17:38:32,248-INFO-my_log.py--Ting日志信息: =====case_id=8======用例title=借款期限类型为空=====
+2019-01-04 17:38:32,251-INFO-my_log.py--Ting日志信息: 测试data数据：{"memberId":1111405,"title":"借款买房","amount":"100000","loanRate":"15","loanTerm":"2","loanDateType":"","repaymemtWay":"4","biddingDays":"2"}
+2019-01-04 17:38:32,297-INFO-my_log.py--Ting日志信息: json数据：{'msg': '抱歉，请先登录。', 'code': None, 'status': 0, 'data': None}
+2019-01-04 17:38:32,300-ERROR-my_log.py--Ting日志信息: 断言报错啦！，错误原因：'20103' != None
+2019-01-04 17:38:32,305-ERROR-my_log.py--Ting日志信息: 测试结果是：False
+2019-01-04 17:38:32,631-INFO-my_log.py--Ting日志信息: ======================结束测试===========================
+2019-01-04 17:38:32,643-INFO-my_log.py--Ting日志信息: ======================开始测试===========================
+2019-01-04 17:38:32,649-INFO-my_log.py--Ting日志信息: =====case_id=9======用例title=还款方式为空=====
+2019-01-04 17:38:32,653-INFO-my_log.py--Ting日志信息: 测试data数据：{"memberId":1111405,"title":"借款买房","amount":"100000","loanRate":"15","loanTerm":"2","loanDateType":"0","repaymemtWay":"","biddingDays":"2"}
+2019-01-04 17:38:32,702-INFO-my_log.py--Ting日志信息: json数据：{'msg': '抱歉，请先登录。', 'code': None, 'status': 0, 'data': None}
+2019-01-04 17:38:32,706-ERROR-my_log.py--Ting日志信息: 断言报错啦！，错误原因：'20103' != None
+2019-01-04 17:38:32,709-ERROR-my_log.py--Ting日志信息: 测试结果是：False
+2019-01-04 17:38:32,969-INFO-my_log.py--Ting日志信息: ======================结束测试===========================
+2019-01-04 17:38:32,976-INFO-my_log.py--Ting日志信息: ======================开始测试===========================
+2019-01-04 17:38:32,982-INFO-my_log.py--Ting日志信息: =====case_id=10======用例title=竞标天数为空=====
+2019-01-04 17:38:32,984-INFO-my_log.py--Ting日志信息: 测试data数据：{"memberId":1111405,"title":"借款买房","amount":"100000","loanRate":"15","loanTerm":"2","loanDateType":"0","repaymemtWay":"4","biddingDays":""}
+2019-01-04 17:38:33,032-INFO-my_log.py--Ting日志信息: json数据：{'msg': '抱歉，请先登录。', 'code': None, 'status': 0, 'data': None}
+2019-01-04 17:38:33,035-ERROR-my_log.py--Ting日志信息: 断言报错啦！，错误原因：'20103' != None
+2019-01-04 17:38:33,039-ERROR-my_log.py--Ting日志信息: 测试结果是：False
+2019-01-04 17:38:33,295-INFO-my_log.py--Ting日志信息: ======================结束测试===========================
+2019-01-04 17:38:33,301-INFO-my_log.py--Ting日志信息: ======================开始测试===========================
+2019-01-04 17:38:33,304-INFO-my_log.py--Ting日志信息: =====case_id=11======用例title=用户id为负数=====
+2019-01-04 17:38:33,306-INFO-my_log.py--Ting日志信息: 测试data数据：{"memberId":"-1111404","title":"借款买房","amount":"100000","loanRate":"15","loanTerm":"2","loanDateType":"0","repaymemtWay":"4","biddingDays":"2"}
+2019-01-04 17:38:33,348-INFO-my_log.py--Ting日志信息: json数据：{'msg': '抱歉，请先登录。', 'code': None, 'status': 0, 'data': None}
+2019-01-04 17:38:33,351-ERROR-my_log.py--Ting日志信息: 断言报错啦！，错误原因：'20104' != None
+2019-01-04 17:38:33,354-ERROR-my_log.py--Ting日志信息: 测试结果是：False
+2019-01-04 17:38:33,570-INFO-my_log.py--Ting日志信息: ======================结束测试===========================
+2019-01-04 17:38:33,576-INFO-my_log.py--Ting日志信息: ======================开始测试===========================
+2019-01-04 17:38:33,578-INFO-my_log.py--Ting日志信息: =====case_id=12======用例title=用户id不存在=====
+2019-01-04 17:38:33,580-INFO-my_log.py--Ting日志信息: 测试data数据：{"memberId":"1111000000404","title":"借款买房","amount":"100000","loanRate":"15","loanTerm":"2","loanDateType":"0","repaymemtWay":"4","biddingDays":"2"}
+2019-01-04 17:38:33,655-INFO-my_log.py--Ting日志信息: json数据：{'msg': '抱歉，请先登录。', 'code': None, 'status': 0, 'data': None}
+2019-01-04 17:38:33,658-ERROR-my_log.py--Ting日志信息: 断言报错啦！，错误原因：'20105' != None
+2019-01-04 17:38:33,661-ERROR-my_log.py--Ting日志信息: 测试结果是：False
+2019-01-04 17:38:32,925-INFO-my_log.py--Ting日志信息: ======================结束测试===========================
+2019-01-04 17:38:33,891-INFO-my_log.py--Ting日志信息: ======================结束测试===========================
+2019-01-04 17:38:33,898-INFO-my_log.py--Ting日志信息: ======================开始测试===========================
+2019-01-04 17:38:33,900-INFO-my_log.py--Ting日志信息: =====case_id=13======用例title=借款金额小于1000=====
+2019-01-04 17:38:33,902-INFO-my_log.py--Ting日志信息: 测试data数据：{"memberId":1111405,"title":"借款买房","amount":"100","loanRate":"15","loanTerm":"2","loanDateType":"0","repaymemtWay":"4","biddingDays":"2"}
+2019-01-04 17:38:33,945-INFO-my_log.py--Ting日志信息: json数据：{'msg': '抱歉，请先登录。', 'code': None, 'status': 0, 'data': None}
+2019-01-04 17:38:33,947-ERROR-my_log.py--Ting日志信息: 断言报错啦！，错误原因：'20106' != None
+2019-01-04 17:38:33,950-ERROR-my_log.py--Ting日志信息: 测试结果是：False
+2019-01-04 17:38:34,175-INFO-my_log.py--Ting日志信息: ======================结束测试===========================
+2019-01-04 17:38:34,263-INFO-my_log.py--Ting日志信息: ======================开始测试===========================
+2019-01-04 17:38:34,268-INFO-my_log.py--Ting日志信息: =====case_id=14======用例title=借款金额不能被100整除=====
+2019-01-04 17:38:34,271-INFO-my_log.py--Ting日志信息: 测试data数据：{"memberId":1111405,"title":"借款买房","amount":"1001","loanRate":"15","loanTerm":"2","loanDateType":"0","repaymemtWay":"4","biddingDays":"2"}
+2019-01-04 17:38:34,324-INFO-my_log.py--Ting日志信息: json数据：{'msg': '抱歉，请先登录。', 'code': None, 'status': 0, 'data': None}
+2019-01-04 17:38:34,328-ERROR-my_log.py--Ting日志信息: 断言报错啦！，错误原因：'20106' != None
+2019-01-04 17:38:34,333-ERROR-my_log.py--Ting日志信息: 测试结果是：False
+2019-01-04 17:38:34,553-INFO-my_log.py--Ting日志信息: ======================结束测试===========================
+2019-01-04 17:38:34,559-INFO-my_log.py--Ting日志信息: ======================开始测试===========================
+2019-01-04 17:38:34,561-INFO-my_log.py--Ting日志信息: =====case_id=15======用例title=借款金额为负数=====
+2019-01-04 17:38:34,564-INFO-my_log.py--Ting日志信息: 测试data数据：{"memberId":1111405,"title":"借款买房","amount":"-100000","loanRate":"15","loanTerm":"2","loanDateType":"0","repaymemtWay":"4","biddingDays":"2"}
+2019-01-04 17:38:34,617-INFO-my_log.py--Ting日志信息: json数据：{'msg': '抱歉，请先登录。', 'code': None, 'status': 0, 'data': None}
+2019-01-04 17:38:34,620-ERROR-my_log.py--Ting日志信息: 断言报错啦！，错误原因：'20106' != None
+2019-01-04 17:38:34,624-ERROR-my_log.py--Ting日志信息: 测试结果是：False
+2019-01-04 17:38:34,870-INFO-my_log.py--Ting日志信息: ======================结束测试===========================
+2019-01-04 17:38:34,876-INFO-my_log.py--Ting日志信息: ======================开始测试===========================
+2019-01-04 17:38:34,879-INFO-my_log.py--Ting日志信息: =====case_id=16======用例title=借款利率大于24%=====
+2019-01-04 17:38:34,882-INFO-my_log.py--Ting日志信息: 测试data数据：{"memberId":1111405,"title":"借款买房","amount":"100000","loanRate":"25","loanTerm":"2","loanDateType":"0","repaymemtWay":"4","biddingDays":"2"}
+2019-01-04 17:38:34,928-INFO-my_log.py--Ting日志信息: json数据：{'msg': '抱歉，请先登录。', 'code': None, 'status': 0, 'data': None}
+2019-01-04 17:38:34,931-ERROR-my_log.py--Ting日志信息: 断言报错啦！，错误原因：'20107' != None
+2019-01-04 17:38:34,934-ERROR-my_log.py--Ting日志信息: 测试结果是：False
+2019-01-04 17:38:35,166-INFO-my_log.py--Ting日志信息: ======================结束测试===========================
+2019-01-04 17:38:35,171-INFO-my_log.py--Ting日志信息: ======================开始测试===========================
+2019-01-04 17:38:35,174-INFO-my_log.py--Ting日志信息: =====case_id=17======用例title=借款利率为0=====
+2019-01-04 17:38:35,177-INFO-my_log.py--Ting日志信息: 测试data数据：{"memberId":1111405,"title":"借款买房","amount":"100000","loanRate":"0","loanTerm":"2","loanDateType":"0","repaymemtWay":"4","biddingDays":"2"}
+2019-01-04 17:38:35,226-INFO-my_log.py--Ting日志信息: json数据：{'msg': '抱歉，请先登录。', 'code': None, 'status': 0, 'data': None}
+2019-01-04 17:38:35,229-ERROR-my_log.py--Ting日志信息: 断言报错啦！，错误原因：'20107' != None
+2019-01-04 17:38:35,232-ERROR-my_log.py--Ting日志信息: 测试结果是：False
+2019-01-04 17:38:35,488-INFO-my_log.py--Ting日志信息: ======================结束测试===========================
+2019-01-04 17:38:35,494-INFO-my_log.py--Ting日志信息: ======================开始测试===========================
+2019-01-04 17:38:35,497-INFO-my_log.py--Ting日志信息: =====case_id=18======用例title=借款日期类型为1=====
+2019-01-04 17:38:35,500-INFO-my_log.py--Ting日志信息: 测试data数据：{"memberId":1111405,"title":"借款买房","amount":"100000","loanRate":"15","loanTerm":"2","loanDateType":"1","repaymemtWay":"4","biddingDays":"2"}
+2019-01-04 17:38:35,548-INFO-my_log.py--Ting日志信息: json数据：{'msg': '抱歉，请先登录。', 'code': None, 'status': 0, 'data': None}
+2019-01-04 17:38:36,097-INFO-my_log.py--Ting日志信息: ======================开始测试===========================
+2019-01-04 17:38:36,152-INFO-my_log.py--Ting日志信息: =====case_id=3======用例title=用户id为空=====
+2019-01-04 17:38:36,206-INFO-my_log.py--Ting日志信息: 测试data数据：{"memberId":"","title":"借款买房","amount":"100000","loanRate":"15","loanTerm":"2","loanDateType":"0","repaymemtWay":"4","biddingDays":"2"}
+2019-01-04 17:38:35,550-ERROR-my_log.py--Ting日志信息: 断言报错啦！，错误原因：'20108' != None
+2019-01-04 17:38:42,081-ERROR-my_log.py--Ting日志信息: 测试结果是：False
+2019-01-04 17:38:40,306-INFO-my_log.py--Ting日志信息: json数据：{'code': None, 'data': None, 'msg': '抱歉，请先登录。', 'status': 0}
+2019-01-04 17:38:42,108-ERROR-my_log.py--Ting日志信息: 断言报错啦！，错误原因：'20103' != None
+2019-01-04 17:38:42,994-INFO-my_log.py--Ting日志信息: ======================结束测试===========================
+2019-01-04 17:38:43,000-ERROR-my_log.py--Ting日志信息: 测试结果是：False
+2019-01-04 17:38:44,307-INFO-my_log.py--Ting日志信息: ======================结束测试===========================
